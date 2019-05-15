@@ -50,6 +50,7 @@ const App = () => {
   return (
     <Router>
       <div>
+        <Header />
         <Route exact path="/" component={CameraPage} />
         <Route path="/ResultPage" component={ResultPage} />
         <Route path="/LibraryPage" component={LibraryPage} />
@@ -90,17 +91,9 @@ const App = () => {
 
 const Header = ()=> {
   return (
-    <ul>
-      <li>
-        <Link to="/">CameraPage</Link>
-      </li>
-      <li>
-        <Link to="/ResultPage">ResultPage</Link>
-      </li>
-      <li>
-        <Link to="/LibraryPage">LibraryPage</Link>
-      </li>
-    </ul>
+    <div className="ui inverted segment">
+      Veggie Carbon
+    </div>
   );
 }
 

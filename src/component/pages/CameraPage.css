@@ -1,4 +1,4 @@
-.cameraImage img{
+.camera-image img{
     height: 500px;
     width: 500px;
     margin-left: auto;
@@ -8,7 +8,7 @@
     
 }
 
-.cameraButton img{
+.camera-button img{
     height: 100px;
     width: 100px;
     margin-left: auto;
